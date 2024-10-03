@@ -1,0 +1,2 @@
+# galileo
+Internet, par satellite
