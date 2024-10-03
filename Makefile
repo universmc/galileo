@@ -43,11 +43,13 @@ map:
 	@echo "${bot_MSG}"
 	@npm run map
 
+call:
+	@echo "${bot_MSG}"
+	@node .setup/chatCompletion.js
 
 gen:
 	@echo "${genP_MSG}"
 	@node .setup/GenP.js wirefram_single_Page
-
 
 ia:
 	@echo "${menuIA_MSG}"

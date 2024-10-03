@@ -34,11 +34,11 @@ menu() {
     echo "   ║                                    ║    ║                                                                                    ║";
     echo "   ║ [>] Menu                           ║    ║                                                                                    ║";
     echo "   ║                                    ║    ║                                                                                    ║";
-    echo "   ║        [x] ChatBot                 ║    ║                                                                                    ║";
+    echo "   ║        [x] Call                    ║    ║                                                                                    ║";
     echo "   ║        [ ] Generative AI           ║    ║                                                                                    ║";
     echo "   ║        [ ] MyPrompt                ║    ║                                                                                    ║";
     echo "   ║                                    ║    ║                                                                                    ║";
-    echo "   ║        [ ] Google                  ║    ║                                                                                    ║";
+    echo "   ║        [ ] call                    ║    ║                                                                                    ║";
     echo "   ║        [ ] Telegram                ║    ║                                                                                    ║";
     echo "   ║        [ ] Youtube                 ║    ║                                                                                    ║";
     echo "   ║                                    ║    ║                                                                                    ║";
@@ -57,6 +57,9 @@ case $commande in
 
         Tme)
             make Tme
+            ;;
+        call)
+            make call
             ;;
         map)
             make map
